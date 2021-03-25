@@ -1,0 +1,1 @@
+Get-CasMailboxPlan | ForEach-Object {Set-CasMailboxPlan -identity:$_.Identity -ImapEnabled:$False -PopEnabled:$False}

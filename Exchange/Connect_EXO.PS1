@@ -1,0 +1,1 @@
+Connect-ExchangeOnline -UserPrincipalName <Admin>@"Tenant".onmicrosoft.us -ConnectionUri https://webmail.apps.mil/powershell-liveid -AzureADAuthorizationEndPointUri https://login.microsoftonline.us/common #Connect to ExO
